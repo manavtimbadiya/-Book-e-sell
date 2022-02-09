@@ -5,6 +5,7 @@ import './App.css';
  import Header from "../Header/Header";
 import BookListing from '../BookListing/BookListing';
 import SearchBox from '../SearchBox/SearchBox';
+import Footer from '../Footer/Footer';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
                  <Route exact path='/' element={< Register />}></Route>
                  <Route exact path='/bookList' element={< BookListing />}></Route>
           </Routes>
+          <Footer />
           </div>
        </Router>
    );

@@ -1,0 +1,11 @@
+.site-footer {
+    padding: 25px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.site-footer .footer-wrapper .copyright-text {
+    color: #757575;
+    font-size: 13px;
+    line-height: 1.8;
+}

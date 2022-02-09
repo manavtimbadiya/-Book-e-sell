@@ -9,7 +9,7 @@ const SearchBox = () => {
                         id="search-text" placeholder="What are you looking for..."
                         type="text" />
 
-<button class="btn green-btn" type="submit">
+                <button class="btn green-btn" type="submit">
                   <em><img src={P3} alt="search" /></em>Search
                 </button>
                 <button class="btn blue-btn" type="submit">Cancel</button>
