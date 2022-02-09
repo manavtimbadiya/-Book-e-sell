@@ -4,7 +4,6 @@ import P4 from "../../assets/breadcrumb-arrow.svg";
 
 const Register = () => {
     return (
-        <div>
           <main>
         <section class="create-account-page-wrapper">
           <div class="container">
@@ -108,7 +107,6 @@ const Register = () => {
           </div>
         </section>
       </main>
-        </div>
     )
 }
 

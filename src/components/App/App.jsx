@@ -17,7 +17,7 @@ class App extends Component {
                 <Routes>
                 
                  <Route exact path='/' element={< Register />}></Route>
-                 <Route exact path='/bookList' element={< BookListing />}></Route>
+                 <Route exact path='/BookListing' element={< BookListing />}></Route>
           </Routes>
           <Footer />
           </div>
